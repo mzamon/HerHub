@@ -132,7 +132,8 @@ public class PowerSosService extends Service {
         final Intent sosScreen = new Intent(this, MainActivity.class).putExtra("sos", true)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         try { startActivity(sosScreen); } catch (Throwable ignored) { }
-        if (canNotify()) {
+        if (Build.VERSION.SDK_INT < 33
+                || ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) == PackageManager.PERMISSION_GRANTED) {
             PendingIntent sosPi = PendingIntent.getActivity(this, 3, sosScreen, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
             PendingIntent cancel = PendingIntent.getService(this, 1, new Intent(this, PowerSosService.class).setAction(ACT_CANCEL), PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
             NotificationManagerCompat.from(this).notify(ID_ALERT, new NotificationCompat.Builder(this, CH_ALERT)
@@ -267,7 +268,10 @@ public class PowerSosService extends Service {
                     PendingIntent.getActivity(this, 10 + k, w, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT));
         }
         nb.addAction(0, "Call 112", call112(6));
-        if (canNotify()) NotificationManagerCompat.from(this).notify(ID_ALERT + 1, nb.build());
+        if (Build.VERSION.SDK_INT < 33
+                || ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) == PackageManager.PERMISSION_GRANTED) {
+            NotificationManagerCompat.from(this).notify(ID_ALERT + 1, nb.build());
+        }
     }
 
     /** Digits only, South African numbers starting with 0 become 27…, as wa.me needs. */
