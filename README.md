@@ -84,6 +84,12 @@ HerHub supports guest use and Firebase authentication. Guest data remains on the
 
 Do not commit Firebase credentials, signing keys, or other secrets. Use the existing ignored local configuration files for environment-specific values.
 
+### Google sign-in setup
+
+Google sign-in requires more than the Android Firebase app entry. In Firebase Console, enable Google under Authentication > Sign-in providers, add the app's package `za.co.herhub`, register the debug SHA-1 and SHA-256 fingerprints, and ensure the project has a Web OAuth 2.0 client. Download the updated `google-services.json` into `app/` and rebuild. The generated `default_web_client_id` is required by Credential Manager.
+
+If the file has no OAuth client entries, Google sign-in cannot start even though Firebase email sign-in and the rest of the app can build successfully.
+
 ## Safety and privacy
 
 - Location is requested only when a location feature needs it.

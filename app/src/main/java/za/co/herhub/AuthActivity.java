@@ -325,7 +325,7 @@ public class AuthActivity extends AppCompatActivity {
         final FirebaseAuth a = auth();
         final String clientId = webClientId();
         if (a == null || clientId == null) {
-            err("Google sign-in isn't set up yet. In Firebase, enable the Google provider, add your SHA-1 key, download google-services.json again and rebuild.");
+            err("Google sign-in needs Firebase Google provider setup and a Web OAuth client. Enable Google in Firebase Authentication, add this app's SHA-1/SHA-256, download a fresh google-services.json, then rebuild.");
             return;
         }
         busy(true);
