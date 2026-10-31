@@ -41,7 +41,11 @@ public class MorePage extends Page {
             item(Features.icon(key), f[1], f[2], () -> Features.go(act(), key));
         }
         h("About");
-        p("HerHub 2.0 · Maps © OpenStreetMap contributors. HerHub is a support tool and does not dispatch emergency services.");
+        p("HerHub 2.1");
+        p("Maps © OpenStreetMap contributors.");
+        p("HerHub is a support tool and does not dispatch emergency services.");
+        p("Founders: Mzamo Ndlovu & Precious Moloi");
+        p("Co-Founders: Thokozani Mncube & Unity Mashimbyi");
     }
 
     private void titleRow(LinearLayout parent, int icon, String text) {
