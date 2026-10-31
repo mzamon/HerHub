@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Anxious/worried emoji: wide worried eyes, sweat droplet, wavy frown -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2 A10,10 0 1,0 12,22 A10,10 0 1,0 12,2 Z" />
+    <!-- Worried raised eyebrows -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M7.5,9.5 L10,8 M16.5,9.5 L14,8" />
+    <!-- Wide worried eyes -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M9,11 A1.2,1.2 0 1,0 9,13.4 A1.2,1.2 0 1,0 9,11 Z M15,11 A1.2,1.2 0 1,0 15,13.4 A1.2,1.2 0 1,0 15,11 Z" />
+    <!-- Worried downturned mouth -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M9,17 C10.5,15.5 13.5,15.5 15,17" />
+    <!-- Cold sweat bead on temple -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M19,8 C19,8 17.5,10 17.5,11 C17.5,11.8 18.2,12.5 19,12.5 C19.8,12.5 20.5,11.8 20.5,11 C20.5,10 19,8 19,8 Z" />
+</vector>

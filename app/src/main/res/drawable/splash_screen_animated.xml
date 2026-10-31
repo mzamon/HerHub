@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_herhub_mark_animated">
+    <target
+        android:name="hexagon_stroke"
+        android:animation="@anim/anim_splash_hexagon_draw" />
+    <target
+        android:name="group_woman"
+        android:animation="@anim/anim_splash_woman_fade" />
+    <target
+        android:name="group_heart"
+        android:animation="@anim/anim_splash_heart_pulse" />
+</animated-vector>

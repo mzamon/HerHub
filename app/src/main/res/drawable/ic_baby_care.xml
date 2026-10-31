@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Baby feeding bottle with graduated measurements -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M8,8 H16 V20 C16,21.1 15.1,22 14,22 H10 C8.9,22 8,21.1 8,20 Z" />
+    <!-- Cap & nipple -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/brand_soft"
+        android:pathData="M7,5 H17 V8 H7 Z M10,5 V2 C10,1.5 11,1 12,1 C13,1 14,1.5 14,2 V5" />
+    <!-- Measurement ticks -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M11,11 H13 M11,14 H14 M11,17 H13" />
+</vector>

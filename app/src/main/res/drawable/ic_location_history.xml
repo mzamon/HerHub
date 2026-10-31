@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Clock dial with rewind breadcrumb trajectory -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,4 A8,8 0 1,0 20,12" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,8 V12 L15,14" />
+    <!-- Arrow indicating history back -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M11,1.5 L8,4 L11,6.5" />
+</vector>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Broken chain link breaking free into soaring wings of liberation -->
+    <!-- Left broken link -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M7,14 C5.5,14 4,12.5 4,11 C4,9.5 5.5,8 7,8 H10" />
+    <!-- Right broken link -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M14,14 H17 C18.5,14 20,12.5 20,11 C20,9.5 18.5,8 17,8" />
+    <!-- Break sparks / soaring dove wing in center -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/brand_soft"
+        android:pathData="M12,4 L14,7 L11,9 L13,12" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M10,18 C11,16 13,16 14,18" />
+</vector>

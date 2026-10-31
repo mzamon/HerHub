@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Botanical organic leaf petals from prototype background corners -->
+    <path
+        android:fillColor="@color/brand_soft"
+        android:pathData="M0,120 C30,90 40,50 30,10 C60,20 90,45 100,80 C60,95 25,115 0,120 Z" />
+    <path
+        android:fillColor="@color/brand_secondary"
+        android:pathData="M10,120 C35,100 55,75 60,40 C80,60 95,85 105,120 C70,115 35,118 10,120 Z" />
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M40,120 C60,105 80,85 90,60 C105,80 115,100 120,120 Z" />
+</vector>

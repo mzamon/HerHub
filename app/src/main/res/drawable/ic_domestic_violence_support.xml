@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Refuge haven roof sheltering caring hands & heart -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M2,9.5 L12,2 L22,9.5" />
+    <!-- Supportive hands holding central heart -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M5,13 V19 C5,20.1 5.9,21 7,21 H17 C18.1,21 19,20.1 19,19 V13" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/brand_primary"
+        android:pathData="M12,17 C10,15 9,13.8 9,12.5 C9,11.2 10,10.2 11.2,10.2 C11.9,10.2 12,10.6 12,10.6 C12,10.6 12.1,10.2 12.8,10.2 C14,10.2 15,11.2 15,12.5 C15,13.8 14,15 12,17 Z" />
+</vector>

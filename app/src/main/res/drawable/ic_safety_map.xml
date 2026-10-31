@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Roadmap surface with shield overlay -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M3,6 L9,3 L15,6 L21,3 V14 L15,17 L9,14 L3,17 Z" />
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M9,3 V14 M15,6 V17" />
+    <!-- Overlaid safety shield at bottom right -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/surface"
+        android:pathData="M18,13 L14,14.5 V17.5 C14,19.5 15.5,21.5 18,22 C20.5,21.5 22,19.5 22,17.5 V14.5 Z" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M16.5,17.5 L17.5,18.5 L19.5,16.5" />
+</vector>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Safe haven building / shelter with shield check -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M3,9.5 L12,3 L21,9.5 V20 C21,20.55 20.55,21 20,21 H4 C3.45,21 3,20.55 3,20 Z" />
+    <!-- Safe check shield centered in building -->
+    <path
+        android:strokeColor="@color/safe"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,9 L9,10.5 V13.5 C9,15.5 10.5,17 12,17.5 C13.5,17 15,15.5 15,13.5 V10.5 Z" />
+    <path
+        android:strokeColor="@color/safe"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M10.8,13.2 L11.6,14 L13.2,12.4" />
+</vector>

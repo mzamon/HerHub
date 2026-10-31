@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HerHub Brand Palette (Day / Light Mode) -->
+    <color name="brand_primary">#D92F78</color>
+    <color name="brand_primary_deep">#A80F50</color>
+    <color name="brand_secondary">#F56FA5</color>
+    <color name="brand_soft">#FCE7EF</color>
+    <color name="brand_blush">#FFF5F8</color>
+    <color name="brand_pale">#FFEAF2</color>
+    <color name="deep_plum">#332332</color>
+
+    <!-- UI Backgrounds and Surfaces -->
+    <color name="screen_background">#FFF8FB</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_raised">#FFFFFF</color>
+    <color name="surface_variant">#F8EDF2</color>
+    <color name="divider">#EADDE4</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#28212A</color>
+    <color name="text_secondary">#796C78</color>
+
+    <!-- Semantic Icons -->
+    <color name="icon_primary">#9F225B</color>
+    <color name="icon_secondary">#B88A9E</color>
+
+    <!-- Semantic Status -->
+    <color name="safe">#168A66</color>
+    <color name="safe_soft">#DFF5EC</color>
+    <color name="danger">#C52F45</color>
+    <color name="danger_soft">#FFE7EA</color>
+    <color name="warning">#B46C0C</color>
+    <color name="warning_soft">#FFF0D2</color>
+    <color name="info">#2465C5</color>
+    <color name="info_soft">#E6F0FF</color>
+
+    <!-- Standard Constants -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#171218</color>
+
+    <!-- Safety Map Elements -->
+    <color name="map_land">#F6F0F2</color>
+    <color name="map_road">#FFFFFF</color>
+    <color name="map_water">#D9ECF7</color>
+    <color name="map_park">#DDEFE4</color>
+
+    <!-- Splash Gradient -->
+    <color name="splash_start">#E91E78</color>
+    <color name="splash_end">#980C4D</color>
+
+    <!-- Wellness & Mood Tracker Tokens -->
+    <color name="soft_lilac">#F2EAF8</color>
+    <color name="leaf_green">#3A9B7B</color>
+    <color name="mood_great">#2B9B77</color>
+    <color name="mood_okay">#D6A62A</color>
+    <color name="mood_stressed">#E57D36</color>
+    <color name="mood_anxious">#DE4C91</color>
+    <color name="mood_sad">#6F82BD</color>
+
+    <!-- Compatibility Aliases for Java App Code -->
+    <color name="brand">#D92F78</color>
+    <color name="brand_dark">#A80F50</color>
+    <color name="brand_hot">#F51F78</color>
+    <color name="brand_coral">#FF719D</color>
+    <color name="brand_on">#FFFFFF</color>
+    <color name="bg">#FFF8FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_alt">#FFF0F5</color>
+    <color name="ink">#28212A</color>
+    <color name="ink_soft">#796C78</color>
+    <color name="outline">#EADDE4</color>
+    <color name="danger_dark">#7E102A</color>
+    <color name="ok">#168A66</color>
+    <color name="icon_bg">#FCE7EF</color>
+    <color name="lavender">#F2EAF8</color>
+    <color name="coral_soft">#FFF0EA</color>
+</resources>

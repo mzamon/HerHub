@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Two people in mutual protection inside a circular boundary -->
+    <!-- Circular bond -->
+    <path
+        android:strokeColor="@color/brand_secondary"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2 A10,10 0 1,0 12,22 A10,10 0 1,0 12,2 Z" />
+    <!-- Person 1 -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M9,8 A2,2 0 1,0 9,12 A2,2 0 1,0 9,8 Z" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M5,18 C5,15.5 7,14 9,14 C10.2,14 11.2,14.6 11.8,15.5" />
+    <!-- Person 2 -->
+    <path
+        android:fillColor="@color/icon_primary"
+        android:pathData="M15,9 A1.8,1.8 0 1,0 15,12.6 A1.8,1.8 0 1,0 15,9 Z" />
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,18 C12.2,16 13.5,14.8 15,14.8 C17,14.8 19,16 19,18" />
+</vector>

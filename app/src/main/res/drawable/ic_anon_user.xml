@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Incognito anonymous avatar: Fedora hat and dark glasses -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M2,9 H22 M6,9 L8,4 H16 L18,9" />
+    <!-- Hat ribbon -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:fillColor="@color/brand_primary"
+        android:pathData="M7,8 H17 V9 H7 Z" />
+    <!-- Glasses -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/icon_primary"
+        android:pathData="M6,13 H10 L9,16 H7 Z M14,13 H18 L17,16 H15 Z M10,14 H14" />
+</vector>

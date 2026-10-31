@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Pharmaceutical capsule pill with reminder clock overlay -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4.5,10.5 C2.5,12.5 2.5,15.7 4.5,17.7 C6.5,19.7 9.7,19.7 11.7,17.7 L17.7,11.7 C19.7,9.7 19.7,6.5 17.7,4.5 C15.7,2.5 12.5,2.5 10.5,4.5 Z" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M7.5,13.5 L14.5,6.5" />
+    <!-- Half pill fill -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M11.7,17.7 C9.7,19.7 6.5,19.7 4.5,17.7 C2.5,15.7 2.5,12.5 4.5,10.5 L7.5,13.5 Z" />
+</vector>

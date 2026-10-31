@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Two empathetic counseling speech dialogue bubbles -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,15 H3 C2.45,15 2,14.55 2,14 V4 C2,3.45 2.45,3 3,3 H13 C13.55,3 14,3.45 14,4 V6" />
+    <!-- Primary therapy dialogue with heart -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/brand_soft"
+        android:pathData="M9,7 H19 C20.1,7 21,7.9 21,9 V17 C21,18.1 20.1,19 19,19 H15 L11,22 V19 H9 C7.9,19 7,18.1 7,17 V9 C7,7.9 7.9,7 9,7 Z" />
+    <!-- Tiny heart inside -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M14,14 C12.5,12.5 12,11.5 12,10.7 C12,9.8 12.8,9 13.7,9 C14.2,9 14.7,9.3 15,9.7 C15.3,9.3 15.8,9 16.3,9 C17.2,9 18,9.8 18,10.7 C18,11.5 17.5,12.5 16,14 Z" />
+</vector>

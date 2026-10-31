@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Private personal diary with ribbon bookmark and pen -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,4 H17 C18.1,4 19,4.9 19,6 V20 C19,20.55 18.55,21 18,21 H4 C3.45,21 3,20.55 3,20 V5 C3,4.45 3.45,4 4,4 Z" />
+    <!-- Spine binding -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M6,4 V21" />
+    <!-- Ribbon bookmark -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/brand_primary"
+        android:pathData="M11,4 V11 L13,9.5 L15,11 V4 Z" />
+</vector>

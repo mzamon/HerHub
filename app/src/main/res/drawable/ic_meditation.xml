@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Lotus meditation yoga posture with calm aura ring -->
+    <!-- Aura halo -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2 C9.5,2 7.5,3.5 7.5,5.5 C7.5,7.5 9.5,9 12,9 C14.5,9 16.5,7.5 16.5,5.5 C16.5,3.5 14.5,2 12,2 Z" />
+    <!-- Head -->
+    <path
+        android:fillColor="@color/icon_primary"
+        android:pathData="M12,4.5 A1.8,1.8 0 1,0 12,8.1 A1.8,1.8 0 1,0 12,4.5 Z" />
+    <!-- Torso and arms in mudra pose -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,9 V15 M8,12 L5,15 L7,17 M16,12 L19,15 L17,17" />
+    <!-- Crossed legs -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,19 C6,17 9,17 12,19 C15,17 18,17 20,19 C18,21 6,21 4,19 Z" />
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Safety rating award badge with star -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2 L15,8 L21,9 L16.5,14 L18,20 L12,17 L6,20 L7.5,14 L3,9 L9,8 Z" />
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M12,7 L13.5,10.5 L17,11 L14.5,13.5 L15.5,17 L12,15 L8.5,17 L9.5,13.5 L7,11 L10.5,10.5 Z" />
+</vector>

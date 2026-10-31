@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Emergency rapid ambulance vehicle -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M1,6 H15 V17 H1 Z" />
+    <!-- Ambulance front cab -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M15,9 H19 L22,13 V17 H15" />
+    <!-- Wheels -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M5,17 A2,2 0 1,0 5,21 A2,2 0 1,0 5,17 Z M18,17 A2,2 0 1,0 18,21 A2,2 0 1,0 18,17 Z" />
+    <!-- Red cross on ambulance -->
+    <path
+        android:strokeColor="@color/danger"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M8,9 V14 M5.5,11.5 H10.5" />
+    <!-- Emergency beacon -->
+    <path
+        android:strokeColor="@color/danger"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M9,4 V6" />
+</vector>

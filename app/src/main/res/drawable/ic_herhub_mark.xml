@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Authentic HerHub Brand Emblem: Hexagon shield framing woman silhouette & heart -->
+    <!-- Hexagonal outer safety shield boundary -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,6 L94,28 V76 L54,98 L14,76 V28 Z" />
+    <!-- Woman profile hair & silhouette -->
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M54,22 C42,22 34,31 34,44 C34,51 38,57 43,60 C41,63 38,67 34,70 C42,72 50,68 54,62 C58,68 66,72 74,70 C70,67 67,63 65,60 C70,57 74,51 74,44 C74,31 66,22 54,22 Z" />
+    <!-- Graceful inner facial contour highlight -->
+    <path
+        android:fillColor="@color/brand_secondary"
+        android:pathData="M54,28 C47,28 42,34 42,42 C42,47 45,51 49,53 C51,55 52,58 52,61 C53,61 54,61 54,61 C54,61 55,61 56,61 C56,58 57,55 59,53 C63,51 66,47 66,42 C66,34 61,28 54,28 Z" />
+    <!-- Caring hands cupping central heart -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/white"
+        android:pathData="M54,80 C48,74 44,70 44,65 C44,61 47.5,58 51.5,58 C53.5,58 54,59 54,59 C54,59 54.5,58 56.5,58 C60.5,58 64,61 64,65 C64,70 60,74 54,80 Z" />
+    <path
+        android:fillColor="@color/brand_primary"
+        android:pathData="M54,77 C49,72 46,69 46,65 C46,62 48.5,60 51.5,60 C53,60 54,61 54,61 C54,61 55,60 56.5,60 C59.5,60 62,62 62,65 C62,69 59,72 54,77 Z" />
+</vector>

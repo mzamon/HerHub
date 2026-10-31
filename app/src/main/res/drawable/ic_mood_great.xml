@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Happy smiling emoji: curved happy eyes and wide joyful smile -->
+    <path
+        android:strokeColor="@color/safe"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2 A10,10 0 1,0 12,22 A10,10 0 1,0 12,2 Z" />
+    <!-- Happy squinting arch eyes -->
+    <path
+        android:strokeColor="@color/safe"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M7.5,9.5 C8,8.5 9.5,8.5 10,9.5 M14,9.5 C14.5,8.5 16,8.5 16.5,9.5" />
+    <!-- Wide joyful smile with teeth / tongue arc -->
+    <path
+        android:strokeColor="@color/safe"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M7,13.5 C8,17 16,17 17,13.5 Z" />
+</vector>

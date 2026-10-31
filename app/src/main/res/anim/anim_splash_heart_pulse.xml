@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <!-- Initial pop & beat -->
+    <set android:ordering="together">
+        <objectAnimator
+            android:duration="500"
+            android:interpolator="@android:interpolator/overshoot"
+            android:propertyName="scaleX"
+            android:startOffset="600"
+            android:valueFrom="0.3"
+            android:valueTo="1.25"
+            android:valueType="floatType" />
+        <objectAnimator
+            android:duration="500"
+            android:interpolator="@android:interpolator/overshoot"
+            android:propertyName="scaleY"
+            android:startOffset="600"
+            android:valueFrom="0.3"
+            android:valueTo="1.25"
+            android:valueType="floatType" />
+    </set>
+    <!-- Relax to normal resting size -->
+    <set android:ordering="together">
+        <objectAnimator
+            android:duration="350"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:propertyName="scaleX"
+            android:valueFrom="1.25"
+            android:valueTo="1.0"
+            android:valueType="floatType" />
+        <objectAnimator
+            android:duration="350"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:propertyName="scaleY"
+            android:valueFrom="1.25"
+            android:valueTo="1.0"
+            android:valueType="floatType" />
+    </set>
+</set>

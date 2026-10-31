@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Safe shelter roof enclosing a loving heart -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M2,10.5 L12,2 L22,10.5" />
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M5,10 V20 C5,20.55 5.45,21 6,21 H18 C18.55,21 19,20.55 19,20 V10" />
+    <!-- Heart inside shelter -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/brand_soft"
+        android:pathData="M12,18 C9.5,15.5 8,14 8,12.5 C8,11.1 9.1,10 10.5,10 C11.3,10 12,10.5 12,11 C12,10.5 12.7,10 13.5,10 C14.9,10 16,11.1 16,12.5 C16,14 14.5,15.5 12,18 Z" />
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Fire services emergency flame -->
+    <path
+        android:strokeColor="@color/warning"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@color/warning_soft"
+        android:pathData="M12,2 C12,2 6,8.5 6,14.5 C6,18.1 8.9,21 12.5,21 C16.1,21 19,18.1 19,14.5 C19,8.5 12,2 12,2 Z" />
+    <!-- Inner heart flame -->
+    <path
+        android:strokeColor="@color/danger"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,12 C12,12 9,15 9,17 C9,18.7 10.3,20 12,20 C13.7,20 15,18.7 15,17 C15,15 12,12 12,12 Z" />
+</vector>

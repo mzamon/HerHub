@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Crossed out eye for stealth / discreet mode -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M2,2 L22,22" />
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M6.7,6.7 C4.6,8.2 3,10.4 2,12 C4.5,16.5 8,19 12,19 C13.7,19 15.3,18.5 16.7,17.6" />
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M9.9,5.1 C10.6,5 11.3,5 12,5 C16,5 19.5,7.5 22,12 C21.1,13.6 19.8,15 18.2,16.2" />
+    <!-- Inner pupil arc -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M10.5,10.5 C10.2,11 10,11.5 10,12 C10,13.1 10.9,14 12,14 C12.5,14 13,13.8 13.5,13.5" />
+</vector>

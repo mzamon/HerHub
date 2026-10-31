@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Monochrome compact version of HerHub mark -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2 L21,7 V17 L12,22 L3,17 V7 Z" />
+    <path
+        android:fillColor="@color/icon_primary"
+        android:pathData="M12,6 C9,6 7,8.5 7,11 C7,13 8,14.5 9.5,15.5 C8.5,16.5 7.5,17 6.5,17.5 C9,18.5 11,17.5 12,16 C13,17.5 15,18.5 17.5,17.5 C16.5,17 15.5,16.5 14.5,15.5 C16,14.5 17,13 17,11 C17,8.5 15,6 12,6 Z" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M12,14 C10.5,12.5 10,11.8 10,11 C10,10.2 10.6,9.5 11.4,9.5 C11.8,9.5 12,9.8 12,9.8 C12,9.8 12.2,9.5 12.6,9.5 C13.4,9.5 14,10.2 14,11 C14,11.8 13.5,12.5 12,14 Z" />
+</vector>

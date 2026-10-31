@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Secure steel document safe / vault box with rotating combination dial -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M3,4 H21 C21.55,4 22,4.45 22,5 V19 C22,19.55 21.55,20 21,20 H3 C2.45,20 2,19.55 2,19 V5 C2,4.45 2.45,4 3,4 Z" />
+    <!-- Vault combination wheel -->
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:fillColor="@color/brand_soft"
+        android:pathData="M12,8 A4,4 0 1,0 12,16 A4,4 0 1,0 12,8 Z" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,6 V8 M12,16 V18 M6,12 H8 M16,12 H18" />
+    <!-- Heavy vault hinges -->
+    <path
+        android:fillColor="@color/icon_primary"
+        android:pathData="M2,6 H4 V8 H2 Z M2,16 H4 V18 H2 Z" />
+</vector>

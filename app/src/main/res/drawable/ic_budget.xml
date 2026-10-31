@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Piggy bank savings fund with growing coin -->
+    <path
+        android:strokeColor="@color/icon_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M19,10 C19,6 16,3 12,3 C8.5,3 5.5,5.5 5,9 C3,9.5 2,11 2,12.5 C2,14 3.5,15.5 5,15.5 C5.5,17 7,18.5 9,19 L8,21 H11 L12,19 H15 L16,21 H19 L18,18.5 C20,17 21,14.5 21,12" />
+    <!-- Eye and coin slot -->
+    <path
+        android:fillColor="@color/icon_primary"
+        android:pathData="M7,8 A1,1 0 1,0 7,10 A1,1 0 1,0 7,8 Z" />
+    <path
+        android:strokeColor="@color/brand_primary"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M11,3 V5 M14,3 V5" />
+</vector>

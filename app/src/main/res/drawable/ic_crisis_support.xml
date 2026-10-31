@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Lifebuoy rescue ring with 4 reflective bands -->
+    <path
+        android:strokeColor="@color/danger"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="@color/surface"
+        android:pathData="M12,2 A10,10 0 1,0 12,22 A10,10 0 1,0 12,2 Z" />
+    <path
+        android:strokeColor="@color/danger"
+        android:strokeWidth="1.8"
+        android:fillColor="@color/surface"
+        android:pathData="M12,7 A5,5 0 1,0 12,17 A5,5 0 1,0 12,7 Z" />
+    <!-- 4 safety cross straps -->
+    <path
+        android:strokeColor="@color/danger"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M12,2 V7 M12,17 V22 M2,12 H7 M17,12 H22" />
+</vector>
