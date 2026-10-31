@@ -238,6 +238,17 @@ public final class U {
         });
         return b;
     }
+
+    /** Button variant for compact toolbars where the icon should sit above its label. */
+    public static MaterialButton verticalBtn(Context x, String s, boolean filled, int iconRes, final Runnable r) {
+        MaterialButton b = btn(x, s, filled, iconRes, r);
+        b.setIconGravity(MaterialButton.ICON_GRAVITY_TEXT_TOP);
+        b.setIconPadding(dp(x, 4));
+        b.setMinHeight(dp(x, 76));
+        b.setPadding(dp(x, 8), dp(x, 8), dp(x, 8), dp(x, 8));
+        return b;
+    }
+
     public static MaterialButton danger(Context x, String s, Runnable r) { return danger(x, s, 0, r); }
     public static MaterialButton danger(Context x, String s, int iconRes, Runnable r) {
         MaterialButton b = btn(x, s, true, iconRes, r);

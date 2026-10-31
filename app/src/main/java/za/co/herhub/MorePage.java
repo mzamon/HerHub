@@ -31,9 +31,9 @@ public class MorePage extends Page {
         in(th, "Current: " + (mode == AppCompatDelegate.MODE_NIGHT_YES ? "Dark" : mode == AppCompatDelegate.MODE_NIGHT_NO ? "Light" : "Follow system"), 13, R.color.ink_soft, false, 2);
         LinearLayout r = U.row(th);
         U.add(th, r, 10);
-        U.addW(r, U.btn(ctx, "Light", mode == AppCompatDelegate.MODE_NIGHT_NO, R.drawable.ic_light_mode, () -> setTheme(AppCompatDelegate.MODE_NIGHT_NO)), 3);
-        U.addW(r, U.btn(ctx, "Dark", mode == AppCompatDelegate.MODE_NIGHT_YES, R.drawable.ic_dark_mode, () -> setTheme(AppCompatDelegate.MODE_NIGHT_YES)), 3);
-        U.addW(r, U.btn(ctx, "Auto", mode == AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM, R.drawable.ic_auto_mode, () -> setTheme(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)), 3);
+        U.addW(r, U.verticalBtn(ctx, "Light", mode == AppCompatDelegate.MODE_NIGHT_NO, R.drawable.ic_light_mode, () -> setTheme(AppCompatDelegate.MODE_NIGHT_NO)), 3);
+        U.addW(r, U.verticalBtn(ctx, "Dark", mode == AppCompatDelegate.MODE_NIGHT_YES, R.drawable.ic_dark_mode, () -> setTheme(AppCompatDelegate.MODE_NIGHT_YES)), 3);
+        U.addW(r, U.verticalBtn(ctx, "Auto", mode == AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM, R.drawable.ic_auto_mode, () -> setTheme(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)), 3);
 
         h("All features");
         for (String[] f : Features.ALL) {

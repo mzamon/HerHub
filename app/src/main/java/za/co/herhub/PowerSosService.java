@@ -267,7 +267,7 @@ public class PowerSosService extends Service {
                     PendingIntent.getActivity(this, 10 + k, w, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT));
         }
         nb.addAction(0, "Call 112", call112(6));
-        NotificationManagerCompat.from(this).notify(ID_ALERT + 1, nb.build());
+        if (canNotify()) NotificationManagerCompat.from(this).notify(ID_ALERT + 1, nb.build());
     }
 
     /** Digits only, South African numbers starting with 0 become 27…, as wa.me needs. */

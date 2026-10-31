@@ -23,10 +23,13 @@ public final class Loc {
 
     public static void fetch(Context ctx, final Cb cb) {
         final Context c = ctx.getApplicationContext();
+        if (!has(c)) { cb.got(null); return; }
         final LocationManager lm = (LocationManager) c.getSystemService(Context.LOCATION_SERVICE);
         Location best = null;
         try {
             for (String p : lm.getProviders(true)) {
+                if (ContextCompat.checkSelfPermission(c, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
+                        && ContextCompat.checkSelfPermission(c, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) break;
                 Location l = lm.getLastKnownLocation(p);
                 if (l != null && (best == null || l.getAccuracy() < best.getAccuracy())) best = l;
             }
@@ -52,6 +55,7 @@ public final class Loc {
             public void onProviderDisabled(String p) { }
         };
         try {
+            if (!has(c)) { cb.got(last); return; }
             lm.requestLocationUpdates(prov, 0L, 0f, ll, Looper.getMainLooper());
         } catch (Throwable t) { cb.got(last); return; }
         h.postDelayed(() -> {

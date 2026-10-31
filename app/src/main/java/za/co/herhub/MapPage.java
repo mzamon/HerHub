@@ -76,11 +76,11 @@ public class MapPage extends Page {
         LinearLayout bar = U.row(ctx);
         bar.setBackground(U.bg(ctx, R.color.surface, R.color.outline, 20));
         bar.setPadding(U.dp(ctx, 8), U.dp(ctx, 6), U.dp(ctx, 8), U.dp(ctx, 6));
-        U.addW(bar, U.btn(ctx, "Me", true, R.drawable.ic_location_user, this::locateMe), 3);
-        U.addW(bar, U.btn(ctx, "Report", false, R.drawable.ic_incident_report, () -> {
+        U.addW(bar, U.verticalBtn(ctx, "Me", true, R.drawable.ic_location_user, this::locateMe), 3);
+        U.addW(bar, U.verticalBtn(ctx, "Report", false, R.drawable.ic_incident_report, () -> {
             if (map != null) reportDialog((GeoPoint) map.getMapCenter());
         }), 3);
-        U.addW(bar, U.btn(ctx, "Help", false, R.drawable.ic_hospital, this::nearbyHelp), 3);
+        U.addW(bar, U.verticalBtn(ctx, "Help", false, R.drawable.ic_hospital, this::nearbyHelp), 3);
         FrameLayout.LayoutParams bp = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM);
         bp.setMargins(U.dp(ctx, 10), 0, U.dp(ctx, 10), U.dp(ctx, 10));
         fl.addView(bar, bp);

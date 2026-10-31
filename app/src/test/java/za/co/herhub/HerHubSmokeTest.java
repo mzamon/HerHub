@@ -8,6 +8,7 @@ import java.util.Set;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class HerHubSmokeTest {
     @Test
@@ -23,8 +24,9 @@ public class HerHubSmokeTest {
             assertFalse(feature[0].isEmpty());
             assertFalse(feature[1].isEmpty());
             assertFalse(feature[2].isEmpty());
-            assertEquals(1, keys.add(feature[0]) ? 1 : 0);
+            assertTrue(keys.add(feature[0]));
             assertFalse(Features.title(feature[0]).isEmpty());
+            assertTrue(Features.icon(feature[0]) != 0);
         }
     }
 }
